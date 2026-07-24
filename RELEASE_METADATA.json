@@ -1,0 +1,25 @@
+{
+  "name": "SecGuardFuse experiment code",
+  "snapshot_date": "2026-07-20",
+  "source_workspace": "ball_market",
+  "scope": "current locked experiment path plus compact machine-readable evidence",
+  "formal_main_protocol": {
+    "run_seeds": [42, 43, 44],
+    "datasets": ["hateful_memes", "hatespeech", "mscoco"],
+    "hostile_profiles": 7,
+    "cases": 63,
+    "market_rows": 5000,
+    "purchase_rows": 50
+  },
+  "excluded": [
+    "feature and market caches",
+    "model checkpoints",
+    "private keys and transcript binaries",
+    "proof setup artifacts",
+    "compiled binaries and build trees",
+    "paper build products",
+    "historical experiment branches"
+  ],
+  "validation_record": "VALIDATION.md",
+  "evidence_summary": "EXPERIMENT_SUMMARY.md"
+}

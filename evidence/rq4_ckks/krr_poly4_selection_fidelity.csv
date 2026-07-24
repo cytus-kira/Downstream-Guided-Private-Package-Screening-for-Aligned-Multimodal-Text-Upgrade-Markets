@@ -1,0 +1,3 @@
+method,max_score_error,mean_score_error,mean_top50_overlap,minimum_top50_overlap,cases
+ours_kernel_ridge_student,0.301544189453125,0.2147970956469339,0.8793650793650793,0.66,63
+ours_sample_package_krr,0.2168350219726562,0.1312182441590324,0.9098412698412699,0.76,63

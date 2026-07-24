@@ -1,0 +1,54 @@
+{
+  "preset": "ratio_5k",
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "ratios": [
+    0.0025,
+    0.005,
+    0.01,
+    0.02
+  ],
+  "datasets": [
+    "hateful_memes",
+    "hatespeech",
+    "mscoco"
+  ],
+  "profiles": [
+    "noise",
+    "coreset_far_wrong",
+    "typiclust_dense",
+    "kmeans_center",
+    "uncertainty_badge",
+    "cosine",
+    "all_average"
+  ],
+  "methods": [
+    "market_random_select",
+    "market_cosine_select",
+    "market_coreset_select",
+    "market_badge_select",
+    "market_kmeans_center_select",
+    "market_typiclust_select",
+    "ours_kernel_ridge_student",
+    "ours_sample_package_krr"
+  ],
+  "score_only": false,
+  "good_source": "downstream_any",
+  "good_target_avoid_weight": 0.05,
+  "preset_args": {
+    "candidate_pool": 4000,
+    "search_pool": 6000,
+    "student_calibration_pool": 4000,
+    "market_size": 5000,
+    "initial_noisy_size": 800,
+    "validation_size": 800,
+    "operator_feature_dim": 64,
+    "krr_train_size": 1000,
+    "anchor_epochs": 5,
+    "anchor_patience": 2,
+    "batch_size": 512
+  }
+}

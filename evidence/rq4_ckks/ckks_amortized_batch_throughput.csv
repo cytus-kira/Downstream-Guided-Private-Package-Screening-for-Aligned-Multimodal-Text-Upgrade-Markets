@@ -1,0 +1,4 @@
+method,covered_raw_rows,encrypted_scoring_objects,encrypted_object_label,encrypted_object_unit,acquisition_rounds,full_flow_s,ms_per_covered_raw_row,covered_raw_rows_per_s,ms_per_encrypted_scoring_object,encrypted_scoring_objects_per_s,communication_kb_per_covered_raw_row
+Ours-KRR-package,5000,2500,"2,500 packages",package,1,107.00902736600001,21.401805473200003,46.7250298696636,42.803610946400006,23.3625149348318,4.9468168258667
+Ours-KRR-raw,5000,5000,"5,000 rows",row,1,175.67678130000002,35.13535626,28.46135933844093,35.13535626,28.46135933844093,9.74536190032959
+CoreSet (10 rounds),5000,50000,"50,000 row-rounds",row-round,10,1254.79732823,250.95946564599998,3.9847072411709163,25.0959465646,39.84707241170916,1006.0008075714111

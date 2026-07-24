@@ -1,0 +1,65 @@
+{
+  "preset": "main_score_5k",
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "datasets": [
+    "hateful_memes",
+    "hatespeech",
+    "mscoco"
+  ],
+  "profiles": [
+    "noise",
+    "coreset_far_wrong",
+    "typiclust_dense",
+    "kmeans_center",
+    "uncertainty_badge",
+    "cosine",
+    "all_average"
+  ],
+  "methods": [
+    "ours_downstream_direct",
+    "ours_influence_only",
+    "ours_loss_reduction_only",
+    "ours_task_operator",
+    "ours_krr_influence_only",
+    "ours_krr_loss_reduction_only",
+    "ours_kernel_ridge_student",
+    "ours_sample_package_direct",
+    "ours_sample_package_influence_only",
+    "ours_sample_package_loss_reduction_only",
+    "ours_sample_package_task_operator",
+    "ours_sample_package_krr_influence_only",
+    "ours_sample_package_krr_loss_reduction_only",
+    "ours_sample_package_krr"
+  ],
+  "score_only": true,
+  "good_source": "downstream_any",
+  "good_target_avoid_weight": 0.05,
+  "package_size": 2,
+  "sample_packaging_stage": "buyer_pca_synchronized_indices",
+  "sample_package_summary": "mean_seller_phi_by_buyer_membership",
+  "sample_package_post_mean_normalization": "none_norm_leq_one",
+  "seller_packaging_rule": "reuse_buyer_package_membership",
+  "krr_online_kernel_eval": "degree4_chebyshev_exp",
+  "krr_exp_interval": [
+    -4.0,
+    0.0
+  ],
+  "krr_sigma2_floor": 0.5,
+  "preset_args": {
+    "candidate_pool": 4000,
+    "search_pool": 6000,
+    "student_calibration_pool": 4000,
+    "market_size": 5000,
+    "initial_noisy_size": 800,
+    "validation_size": 800,
+    "operator_feature_dim": 64,
+    "krr_train_size": 1000,
+    "anchor_epochs": 5,
+    "anchor_patience": 2,
+    "batch_size": 512
+  }
+}

@@ -1,0 +1,15 @@
+method,method_label,mean,std,min,max,count,scoring_semantics
+ours_downstream_direct,Teacher-direct,49.46031746031746,2.3128351323011236,33,50,63,teacher_reference
+ours_sample_package_direct,Teacher-pkg-direct,49.46031746031746,1.1615534207286176,44,50,63,teacher_reference
+ours_sample_package_loss_reduction_only,Teacher-pkg-no-influence,46.63492063492063,4.840359848331684,32,50,63,teacher_reference
+ours_loss_reduction_only,Teacher-no-influence,46.55555555555556,8.996016641391144,7,50,63,teacher_reference
+ours_sample_package_krr,Ours-online-pkg-KRR,42.301587301587304,7.966937568101667,26,50,63,online_student
+ours_kernel_ridge_student,Ours-online-KRR,39.63492063492063,11.041419946233525,16,50,63,online_student
+ours_sample_package_krr_loss_reduction_only,Ours-online-pkg-KRR-no-influence,37.6031746031746,10.967017535789408,10,50,63,online_student
+ours_sample_package_influence_only,Teacher-pkg-no-loss,37.111111111111114,13.820404633345245,9,50,63,teacher_reference
+ours_krr_loss_reduction_only,Ours-online-KRR-no-influence,33.92063492063492,15.649695026711653,0,50,63,online_student
+ours_influence_only,Teacher-no-loss,32.34920634920635,18.829591270775772,1,50,63,teacher_reference
+ours_sample_package_krr_influence_only,Ours-online-pkg-KRR-no-loss,31.333333333333332,14.770284029854697,2,50,63,online_student
+ours_sample_package_task_operator,Ours-online-pkg-task,28.349206349206348,13.468192792720727,1,47,63,online_task_operator
+ours_krr_influence_only,Ours-online-KRR-no-loss,26.793650793650794,16.440664308608277,0,50,63,online_student
+ours_task_operator,Ours-online-task,20.80952380952381,15.37473539542267,0,50,63,online_task_operator

@@ -1,0 +1,9 @@
+attack_type,attempted_cases,accepted_cases,rejected_cases,rejection_rate
+large-contribution-tampering,3,0,3,1.0
+malformed-share,3,0,3,1.0
+proof-tampering,3,0,3,1.0
+replay,3,0,3,1.0
+unauthorized-output,3,0,3,1.0
+wrong-key,3,0,3,1.0
+wrong-level,3,0,3,1.0
+wrong-target,3,0,3,1.0

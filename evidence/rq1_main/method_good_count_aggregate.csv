@@ -1,0 +1,10 @@
+method,mean,std,min,max,count,method_label,scoring_semantics,online_scoring_uses_downstream_model,student_supervision
+ours_sample_package_krr,42.301587301587304,7.966937568101667,26,50,63,Ours-online-pkg-KRR,online_student,0,top_quantile
+ours_kernel_ridge_student,39.63492063492063,11.041419946233525,16,50,63,Ours-online-KRR,online_student,0,top_quantile
+market_kmeans_center_select,24.58730158730159,20.605068997884434,0,50,63,KMeans,baseline_feature,0,top_quantile
+market_typiclust_select,21.50793650793651,21.120906181586705,0,50,63,TypiClust,baseline_feature,0,top_quantile
+market_coreset_select,13.396825396825397,18.352761664858143,0,50,63,CoreSet,baseline_feature,0,top_quantile
+market_badge_select,13.095238095238095,18.231233644060726,0,50,63,BADGE,baseline_model_based,1,top_quantile
+market_cosine_select,12.333333333333334,19.709175855505116,0,50,63,Cosine,baseline_feature,0,top_quantile
+market_uncertainty_select,12.047619047619047,19.25166819033091,0,50,63,Uncertainty,baseline_model_based,1,top_quantile
+market_random_select,5.111111111111111,1.7423668654754694,3,8,63,Random,baseline_feature,0,top_quantile

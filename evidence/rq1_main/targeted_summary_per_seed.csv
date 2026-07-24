@@ -1,0 +1,64 @@
+run_seed,dataset,profile,target,target_label,target_good_count,coreset_good,cosine_good,badge_good,kmeans_good,typiclust_good,uncertainty_good,ours_direct_good,ours_task_good,ours_krr_good,ours_pkg_direct_good,ours_pkg_task_good,ours_pkg_krr_good
+42,hateful_memes,all_average,min_targeted_baselines,Target baseline,0,1,0,1,2,0,0,,,24,,,32
+43,hateful_memes,all_average,min_targeted_baselines,Target baseline,0,0,0,0,0,0,0,,,42,,,34
+44,hateful_memes,all_average,min_targeted_baselines,Target baseline,0,0,0,0,0,0,1,,,32,,,27
+42,hateful_memes,coreset_far_wrong,market_coreset_select,CoreSet,0,0,4,0,49,40,0,,,43,,,43
+43,hateful_memes,coreset_far_wrong,market_coreset_select,CoreSet,0,0,3,0,42,38,0,,,49,,,49
+44,hateful_memes,coreset_far_wrong,market_coreset_select,CoreSet,0,0,1,0,47,43,0,,,46,,,47
+42,hateful_memes,cosine,market_cosine_select,Cosine,0,30,0,30,13,6,10,,,39,,,42
+43,hateful_memes,cosine,market_cosine_select,Cosine,0,21,0,21,12,2,0,,,45,,,50
+44,hateful_memes,cosine,market_cosine_select,Cosine,0,40,0,40,18,2,7,,,45,,,46
+42,hateful_memes,kmeans_center,market_kmeans_center_select,KMeans,2,35,50,40,2,0,14,,,16,,,26
+43,hateful_memes,kmeans_center,market_kmeans_center_select,KMeans,0,32,49,33,0,0,0,,,23,,,27
+44,hateful_memes,kmeans_center,market_kmeans_center_select,KMeans,1,49,50,49,1,0,13,,,18,,,27
+42,hateful_memes,noise,market_coreset_select,CoreSet,0,0,4,0,49,40,0,,,42,,,47
+43,hateful_memes,noise,market_coreset_select,CoreSet,0,0,3,0,42,38,0,,,48,,,50
+44,hateful_memes,noise,market_coreset_select,CoreSet,0,0,1,0,47,43,0,,,46,,,50
+42,hateful_memes,typiclust_dense,market_typiclust_select,TypiClust,0,43,12,35,2,0,16,,,18,,,29
+43,hateful_memes,typiclust_dense,market_typiclust_select,TypiClust,0,32,2,31,0,0,0,,,22,,,30
+44,hateful_memes,typiclust_dense,market_typiclust_select,TypiClust,0,50,9,50,1,0,15,,,17,,,31
+42,hateful_memes,uncertainty_badge,market_badge_select,BADGE,0,0,0,0,26,15,0,,,25,,,36
+43,hateful_memes,uncertainty_badge,market_badge_select,BADGE,0,0,0,0,24,5,0,,,37,,,40
+44,hateful_memes,uncertainty_badge,market_badge_select,BADGE,0,0,0,0,27,1,0,,,29,,,37
+42,hatespeech,all_average,min_targeted_baselines,Target baseline,0,7,0,3,19,2,0,,,43,,,34
+43,hatespeech,all_average,min_targeted_baselines,Target baseline,0,0,0,0,2,2,0,,,21,,,28
+44,hatespeech,all_average,min_targeted_baselines,Target baseline,0,0,0,1,4,0,0,,,36,,,34
+42,hatespeech,coreset_far_wrong,market_coreset_select,CoreSet,0,0,0,0,50,50,0,,,49,,,49
+43,hatespeech,coreset_far_wrong,market_coreset_select,CoreSet,0,0,0,0,50,50,0,,,50,,,49
+44,hatespeech,coreset_far_wrong,market_coreset_select,CoreSet,0,0,0,0,50,50,0,,,50,,,50
+42,hatespeech,cosine,market_cosine_select,Cosine,0,50,0,50,42,20,0,,,47,,,47
+43,hatespeech,cosine,market_cosine_select,Cosine,0,7,0,7,26,12,0,,,39,,,44
+44,hatespeech,cosine,market_cosine_select,Cosine,0,24,0,24,38,16,0,,,42,,,50
+42,hatespeech,kmeans_center,market_kmeans_center_select,KMeans,13,50,16,50,13,7,0,,,34,,,39
+43,hatespeech,kmeans_center,market_kmeans_center_select,KMeans,8,8,30,8,8,9,0,,,20,,,30
+44,hatespeech,kmeans_center,market_kmeans_center_select,KMeans,5,27,37,27,5,2,0,,,21,,,41
+42,hatespeech,noise,market_coreset_select,CoreSet,0,0,0,0,50,50,0,,,49,,,50
+43,hatespeech,noise,market_coreset_select,CoreSet,0,0,0,0,50,50,0,,,49,,,50
+44,hatespeech,noise,market_coreset_select,CoreSet,0,0,0,0,50,50,0,,,50,,,50
+42,hatespeech,typiclust_dense,market_typiclust_select,TypiClust,1,50,0,50,12,1,0,,,31,,,41
+43,hatespeech,typiclust_dense,market_typiclust_select,TypiClust,5,12,4,9,8,5,0,,,22,,,34
+44,hatespeech,typiclust_dense,market_typiclust_select,TypiClust,0,32,4,29,6,0,0,,,23,,,35
+42,hatespeech,uncertainty_badge,market_badge_select,BADGE,0,0,0,0,48,46,0,,,44,,,42
+43,hatespeech,uncertainty_badge,market_badge_select,BADGE,0,0,0,0,43,40,0,,,33,,,43
+44,hatespeech,uncertainty_badge,market_badge_select,BADGE,0,0,0,0,44,29,0,,,42,,,42
+42,mscoco,all_average,min_targeted_baselines,Target baseline,0,0,0,0,9,20,50,,,50,,,50
+43,mscoco,all_average,min_targeted_baselines,Target baseline,0,0,0,0,0,1,47,,,50,,,50
+44,mscoco,all_average,min_targeted_baselines,Target baseline,0,3,50,2,0,0,4,,,47,,,45
+42,mscoco,coreset_far_wrong,market_coreset_select,CoreSet,0,0,8,0,50,50,50,,,49,,,49
+43,mscoco,coreset_far_wrong,market_coreset_select,CoreSet,0,0,0,0,50,50,45,,,50,,,50
+44,mscoco,coreset_far_wrong,market_coreset_select,CoreSet,0,0,50,0,46,50,4,,,50,,,49
+42,mscoco,cosine,market_cosine_select,Cosine,0,12,0,5,42,46,50,,,49,,,50
+43,mscoco,cosine,market_cosine_select,Cosine,0,8,0,8,32,35,47,,,50,,,50
+44,mscoco,cosine,market_cosine_select,Cosine,50,50,50,50,10,7,6,,,38,,,27
+42,mscoco,kmeans_center,market_kmeans_center_select,KMeans,6,10,50,17,6,21,43,,,45,,,48
+43,mscoco,kmeans_center,market_kmeans_center_select,KMeans,0,14,50,14,0,1,47,,,44,,,50
+44,mscoco,kmeans_center,market_kmeans_center_select,KMeans,0,50,50,50,0,0,2,,,50,,,46
+42,mscoco,noise,market_coreset_select,CoreSet,0,0,8,0,50,50,50,,,50,,,50
+43,mscoco,noise,market_coreset_select,CoreSet,0,0,0,0,50,50,46,,,50,,,50
+44,mscoco,noise,market_coreset_select,CoreSet,0,0,50,0,46,50,4,,,49,,,46
+42,mscoco,typiclust_dense,market_typiclust_select,TypiClust,19,26,28,20,6,19,42,,,42,,,47
+43,mscoco,typiclust_dense,market_typiclust_select,TypiClust,1,20,4,19,0,1,47,,,43,,,48
+44,mscoco,typiclust_dense,market_typiclust_select,TypiClust,0,50,50,50,0,0,2,,,47,,,45
+42,mscoco,uncertainty_badge,market_badge_select,BADGE,0,0,0,0,50,50,50,,,47,,,44
+43,mscoco,uncertainty_badge,market_badge_select,BADGE,0,0,0,0,50,50,44,,,47,,,45
+44,mscoco,uncertainty_badge,market_badge_select,BADGE,2,1,50,2,30,40,3,,,49,,,44

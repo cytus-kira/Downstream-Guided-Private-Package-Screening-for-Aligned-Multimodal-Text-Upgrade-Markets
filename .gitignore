@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+build/
+**/build/
+
+# Editors and operating systems
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Data, caches, checkpoints, and generated experiments
+feature_cache/
+outputs/
+**/runs/
+**/paper_ready/
+encrypted_benchmarks/**/results/
+*.npz
+*.npy
+*.pt
+*.pth
+*.ckpt
+*.pkl
+*.joblib
+
+# Generated paper and plotting artifacts
+paper/latex/
+fig/
+plot/
+*.pdf
+*.xlsx
+
+# VTD generated/private material
+vtd/bin/
+vtd/report/
+vtd/**/private/
+vtd/**/messages/
+vtd/**/results/
+*.key
+*.pem
+commitment_salt.txt
+
+# Logs and temporary files
+tmp/
+*.log
+*.tmp
+*.zip
