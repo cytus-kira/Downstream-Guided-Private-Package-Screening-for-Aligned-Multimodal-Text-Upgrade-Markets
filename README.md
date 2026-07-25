@@ -1,4 +1,4 @@
-# Downstream-Guided Private Package Screening for Aligned Multimodal Text Enrichment
+# PrivSift
 
 ## 1. Requirements
 
